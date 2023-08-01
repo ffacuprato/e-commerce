@@ -1,0 +1,37 @@
+.inicio-sesion-input{
+   width: 100%;
+   margin: .5rem 0;
+   height: 3rem;
+   color: #A2A2A2;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    background: var(--preto-branco, #FFF);
+    border-radius: 4px;
+    border: none;
+    
+}
+.inicio-sesion-button{
+    width: 100%;
+    margin: .5rem 0;
+    height: 3rem;
+    font-family: Raleway;
+    font-size: 1rem;
+    background-color: #2A7AE4;
+    border: none;
+    color: white;
+    transition: .5s;
+}
+.inicio-sesion-button:hover{
+    font-weight: bolder;
+    font-size: 1.15rem;
+    background-color: #498de5;
+
+}
+@media (max-width:430px){
+    .inicio-sesion-input{
+        width: 80%;
+    }
+}

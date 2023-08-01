@@ -1,0 +1,59 @@
+.contacto-form{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.contacto-title{
+    font-family: Montserrat;
+    font-size: larger;
+    font-weight: bolder;
+}
+.contacto-input{
+    height: 2rem;
+    border: none;
+    margin: .75rem 0;
+    font-family: Raleway;
+    font-size: 0.875rem;
+}
+.contacto-text-area{
+    border: none;
+    margin: .75rem 0;
+    font-family: Raleway;
+    font-size: 0.875rem;
+}
+.contacto-button{
+    height: 3rem;
+    width: 10rem;
+    background-color: var(--azul-100, #2A7AE4);
+    border: 1px solid var(--azul-100, #2A7AE4);
+    color: white;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: .5s;
+}
+.contacto-button:hover{
+    font-size: 1.15rem;
+    background-color: #498de5;
+}
+@media (min-width:781px) and (max-width:1024px) {
+    .contacto-form{
+        width: 45%;
+    }
+}
+
+@media (min-width:431px) and (max-width:780px){
+    .contacto-form{
+        width: 45%;
+    }
+}
+@media (max-width:430px) {
+    .contacto-form{
+        width: 100%;
+    }
+    .contacto-title{
+        margin-top: 0.5rem;
+    }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+
+        <meta charset="UTF-8"> 
+        <title>Agregar productos</title>
+        <meta name='viewport' content='width=device-width' user-scalable="no" initial-scale=1.0">
+        <link rel="stylesheet" href="/assets/styles/reset.css">
+        <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap' rel="stylesheet">
+        <link rel="icon" href="assets/img/sports_esports_black_24dp 1.svg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Raleway:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/styles/todos-los-productos/reset.css">
+        <link rel="stylesheet" href="/assets/styles/todos-los-productos/header/header.css">
+        <link rel="stylesheet" href="/assets/styles/todos-los-productos/header/header-buscador.css">
+        <link rel="stylesheet" href="/assets/styles/todos-los-productos/header/header-logo.css">
+        <link rel="stylesheet" href="/assets/styles/todos-los-productos/contacto/contacto.css">
+        <link rel="stylesheet" href="/assets/styles/todos-los-productos/contacto/contacto-form.css">
+        <link rel="stylesheet" href="/assets/styles/todos-los-productos/contacto/contacto-img.css">
+        <link rel="stylesheet" href="/assets/styles/todos-los-productos/contacto/contacto-about-us.css">
+        <link rel="stylesheet" href="/assets/styles/todos-los-productos/footer/footer.css">
+        <link rel="stylesheet" href="/assets/styles/todos-los-productos/footer/footer-content.css">
+        <link rel="stylesheet" href="/assets/styles/todos-los-productos/main/main.css">
+        <link rel="stylesheet" href="/assets/styles/agregar-productos/agregar-form/formulario.css">
+        <link rel="stylesheet" href="/assets/styles/agregar-productos/agregar-form/formulario-container.css">
+    </head>
+
+    <header>
+        <section class="logo"> 
+
+            <div class="logo">
+                <img src="assets/img/sports_esports_black_24dp 1.svg" alt="logo" class="logo-img">
+                <h1 class="logo-title">FacuGeek</h1>
+            </div>
+        </section>
+
+        <section class="buscador">
+
+        <input class="buscador-input" type="search" placeholder=" ¿Qué desea buscar?">
+        <img  class="buscador-movil-icono" src="/assets/img/header/Vector.png" alt="">
+
+        </section>
+
+    </header>
+
+    <main>
+       <section class="formulario-container">
+        <form action="" class="formulario">
+
+            <h1 class="formulario-title">Agregar productos</h1>
+
+            <label for="form-input-url" class="form-label" > <span>URL de imagen</span>
+            <input type="text" id="form-input-url" class="formulario-input" placeholder="URL de imagen">
+            </label>
+
+            <label for="form-input categoria" class="form-label" ><span>Categoria</span>
+            <input type="text" id="form-input categoria" class="formulario-input" placeholder="Categoria">
+            </label>
+
+            <label for="form-input nombre" class="form-label" ><span>Nombre del producto</span>
+            <input type="text" id="form-input nombre" class="formulario-input" placeholder="Nombre del producto">
+            </label>
+
+            <label for="form-input descripcion" class="form-label" > <span>Descripcion</span>
+            <textarea id="form-input descripcion" class="formulario-text-area" placeholder="Descripcion"></textarea>
+           </label>
+           
+            <button class="formulario-button" type="submit">Agregar</button>
+        </form>
+       </section>
+
+
+        <section class="contacto">
+
+            <div class="about-us">
+
+                <div class="container-about-us-img">
+
+                        <img src="assets/img/sports_esports_black_24dp 1.svg" alt="logo" class="contacto-logo-img">
+                        <h1 class="contacto-logo-title">FacuGeek</h1>
+                </div>
+                <div class="container-about-us-link">
+                        <a href="" class="about-us-link">Quienes somos</a>
+                        <a href="" class="about-us-link">Politica de privacidad</a>
+                        <a href="" class="about-us-link">Programa de fidelidad</a>
+                        <a href="" class="about-us-link">Nuestras tiendas</a>
+                        <a href="" class="about-us-link">Quiero ser franquiciado</a>
+                        <a href="" class="about-us-link">Anunciese aqui</a>
+                </div>
+
+            </div>
+            
+            <form class="contacto-form">
+                <h1 class="contacto-title">Hable con nosotros</h1>
+                <input type="text" class="contacto-input nombre" placeholder="Nombre Completo">
+                <input type="text" class="contacto-input e-mail" placeholder="Correo Electronico">
+                <input type="text" class="contacto-input direccion" placeholder="Direccion">
+                <textarea name="mensaje" class="contacto-text-area mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button type="submit" class="contacto-button">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <h1 class="footer-title">Desarrollado por Facundo Prato</h1>
+    </footer>
+
+</html>

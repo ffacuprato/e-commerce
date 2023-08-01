@@ -1,0 +1,90 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 2rem;
+}
+.formulario-title{
+    font-family: Montserrat;
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+.formulario-input{
+    height: 2rem;
+    border: none;
+    margin: .75rem 0;
+    font-family: Raleway;
+    font-size: 0.875rem;
+    outline: none;
+}
+.form-label{
+    display: flex;
+    flex-direction: column;
+    font-family: Raleway;
+}
+span{
+    position:relative;
+    top:0;
+    left:0;
+    margin-left: 0.15rem;
+    transform:translateY(30px);
+    font-size:0.825em;
+    transition-duration:300ms;
+    font-family: Raleway;
+}
+.formulario-text-area{
+    border: none;
+    outline: none;
+    margin: .75rem 0;
+    font-family: Raleway;
+    font-size: 0.875rem;
+}
+.formulario-button{
+    height: 3rem;
+    width: 10rem;
+    background-color: var(--azul-100, #2A7AE4);
+    border: 1px solid var(--azul-100, #2A7AE4);
+    color: white;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: .5s;
+}
+.formulario-button:hover{
+    font-size: 1.15rem;
+    background-color: #498de5;
+}
+.formulario-input::placeholder{
+    opacity:0;
+}
+.formulario-text-area::placeholder{
+    opacity: 0;
+}
+.form-label:focus-within > span,
+.formulario-input:not(:placeholder-shown) + span{
+    transform:translateY(0px);
+    color: black;
+}
+
+@media (min-width:781px) and (max-width:1024px) {
+    .formulario{
+        width: 45%;
+    }
+}
+
+@media (min-width:431px) and (max-width:780px){
+    .formulario{
+        width: 45%;
+    }
+}
+@media (max-width:430px) {
+    .formulario{
+        width: 100%;
+    }
+    .formulario-title{
+        margin-top: 0.5rem;
+    }
+}

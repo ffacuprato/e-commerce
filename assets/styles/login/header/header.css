@@ -1,0 +1,29 @@
+header{
+    padding: 1rem 12rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+@media (min-width:781px) and (max-width:1024px) {
+    header{
+        padding: 1rem 9rem;
+    }
+    
+}
+@media (min-width:431px) and (max-width:780px) {
+    header{
+        padding: 1rem 3rem;
+    }
+}
+@media (max-width:430px){
+    header{
+        justify-content: space-between;
+        padding: 0.5rem;
+    }
+}
+@media (min-width:1440px) {
+    header{
+        padding: 1rem 25rem;
+    }
+    
+}

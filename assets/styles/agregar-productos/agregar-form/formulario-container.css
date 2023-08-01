@@ -1,0 +1,23 @@
+.formulario-container{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 8rem;
+    background-color:#F5F5F5;
+    ;
+}
+@media (min-width:780px) and (max-width:1024px) {
+    .formulario-container{
+        padding: 1.5rem 5rem;
+    }
+}
+@media (min-width:431px) and (max-width:780px) {
+    .formulario-container{
+        padding: 1.5rem 3rem;
+    }
+}
+@media (max-width:430px){
+    .formulario-container{
+        padding: 1rem;
+        flex-direction: column;
+    }
+}
